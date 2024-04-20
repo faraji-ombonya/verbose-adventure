@@ -14,3 +14,10 @@ conda create --prefix ./env pandas numpy matplotlib scikit-learn jupyter
 ```
 conda activate
 ```
+
+## Alternatively
+
+5. To create an environment from an existing environment
+```
+conda env create --file environment.yml --name new_environment
+```
